@@ -1,0 +1,22 @@
+.main-conent {
+  font-family: "Comic Relief", sans-serif;
+  font-size: 5vh;
+  display: block;
+  margin-top: 55vh;
+  text-align: center;
+}
+
+.divgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2vh;
+}
+
+.divgrid img {
+    width: 100%;
+    height: 30vh;
+    aspect-ratio: "1/1";
+    border-radius: 5vh;
+    border: 5px solid #fafafa;
+}
