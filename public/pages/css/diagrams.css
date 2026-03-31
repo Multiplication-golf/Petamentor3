@@ -1,0 +1,27 @@
+.divcentered {
+    font-size: 4vh;
+    margin-top: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.rounded {
+    border-radius: 5vh;
+    width: 100%;
+    border: none;
+}
+
+.section-title {
+    display: block;
+}
+
+.divcentered2 {
+    font-size: 4vh;
+    margin-top: 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
