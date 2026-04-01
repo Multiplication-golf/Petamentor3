@@ -27,12 +27,19 @@ class dropDownMenu {
   }
 }
 
-const moreDropDownMenu = new dropDownMenu([{name: "Strip Calc", href: "./stripcalc.html"}, {name: "PETamentor2", href: "http://PETamentor2.com"}], "dropDownMenu", "container");
+const moreDropDownMenu = new dropDownMenu(
+  [
+    { name: "Strip Calc", href: "./stripcalc.html" },
+    { name: "PETamentor2", href: "http://PETamentor2.com" },
+  ],
+  "dropDownMenu",
+  "container",
+);
 
 moreDropDownMenu.dropdownMenu.addEventListener("click", () => {
-    if (moreDropDownMenu.toggleOpen) {
-        moreDropDownMenu.close();
-    } else {
-        moreDropDownMenu.open();
-    }
+  if (moreDropDownMenu.toggleOpen) {
+    moreDropDownMenu.close();
+  } else {
+    moreDropDownMenu.open();
+  }
 });
